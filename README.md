@@ -20,4 +20,4 @@ A simple **Rock-Paper-Scissors** game built with **HTML**, **CSS**, and **JavaSc
 
 ## 📷 Screenshot
 
-![Gameplay Screenshot](./Screeshot.png)
+![Gameplay Screenshot](./Screenshot.png)
