@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    background-color: darkblue;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.content{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.box1{
+  height: 40vmin;
+  aspect-ratio: 1/1;
+  background-color:red ;
+  border-radius: 50%;
+  background-image: url(rock.png);
+  background-size: cover;
+}
+.box1,
+.box2,
+.box3 {
+  border: 10px solid transparent; /* Reserve border space */
+  box-sizing: border-box;         /* Ensure padding + border doesn't grow the box */
+}
+
+.box1:hover {
+  cursor: pointer;
+  border-color: black;
+}
+.box2:hover {
+  cursor: pointer;
+  border-color: black;
+}
+.box3:hover {
+  cursor: pointer;
+  border-color:black;
+}
+
+.box2{
+  height: 40vmin;
+  aspect-ratio: 1/1;
+  background-color:green ;
+  border-radius: 50%;
+  background-image: url(paper.png);
+  background-size: cover;
+}
+.box3{
+  height: 40vmin;
+  aspect-ratio: 1/1;
+  background-color:blue ;
+  border-radius: 50%;
+  background-image: url(scissors.png);
+  background-size: cover;
+}
+.counter{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+}
+.num1{
+    height: 10vmin;
+    aspect-ratio: 1/1;
+}
+.num2{
+    height:10vmin;
+    aspect-ratio: 1/1;
+}
+#count1{
+      text-align: center;
+}
+#count2{
+      text-align: center;
+
+}
+.foot{
+  
+  display: inline;
+  background-color: gray;
+  border-radius: 1rem;
+  padding: 0.5rem;
+   
+ }
+.time{
+  font-size: large;
+  color: white;
+display: flex;
+justify-content: center;
+
+}
